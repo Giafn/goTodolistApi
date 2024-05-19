@@ -13,9 +13,9 @@ func main() {
 	cfg := config.LoadConfig()
 	db := config.InitDB(cfg)
 	e := echo.New()
-	validate := validator.New()
+	validator := validator.New()
 
-	router.InitRoutes(e, db, validate)
+	router.InitRoutes(e, db, validator)
 
 	fmt.Printf("Server started at :%s\n", cfg.Port)
 	e.Logger.Fatal(e.Start(fmt.Sprintf(":%s", cfg.Port)))
