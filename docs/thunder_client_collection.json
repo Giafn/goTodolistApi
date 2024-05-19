@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "todolist-golang",
+    "collectionId": "3a3d5aae-ca91-42b3-85ef-7488408e3f44",
+    "dateExported": "2024-05-19T04:16:48.670Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "279cdb00-6a5a-48f0-83eb-8459282772b0",
+            "colId": "3a3d5aae-ca91-42b3-85ef-7488408e3f44",
+            "containerId": "",
+            "name": "get todos",
+            "url": "{{localhost}}:8000/api/todos",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-19T04:15:09.946Z",
+            "modified": "2024-05-19T04:15:09.946Z",
+            "headers": []
+        },
+        {
+            "_id": "adae64cd-c13c-4013-8161-34ce5c33d19e",
+            "colId": "3a3d5aae-ca91-42b3-85ef-7488408e3f44",
+            "containerId": "",
+            "name": "create todo",
+            "url": "{{localhost}}:8000/api/todos",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-19T04:15:33.183Z",
+            "modified": "2024-05-19T04:16:30.421Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\" : \"ngoding\",\n  \"completed\": false\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "cd9307c3-c474-413a-b228-f96ec071f3c8",
+            "colId": "3a3d5aae-ca91-42b3-85ef-7488408e3f44",
+            "containerId": "",
+            "name": "done todo",
+            "url": "{{localhost}}:8000/api/todos/2/done",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-05-19T04:15:42.331Z",
+            "modified": "2024-05-19T04:15:42.331Z",
+            "headers": []
+        },
+        {
+            "_id": "4e600e38-bc5b-4e7a-b672-8992f8a1bff3",
+            "colId": "3a3d5aae-ca91-42b3-85ef-7488408e3f44",
+            "containerId": "",
+            "name": "delete todos",
+            "url": "{{localhost}}:8000/api/todos/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-05-19T04:15:52.443Z",
+            "modified": "2024-05-19T04:15:52.443Z",
+            "headers": []
+        },
+        {
+            "_id": "4f1a04dd-d9c2-4361-8195-d5530c54978e",
+            "colId": "3a3d5aae-ca91-42b3-85ef-7488408e3f44",
+            "containerId": "",
+            "name": "edit todo name",
+            "url": "{{localhost}}:8000/api/todos/2/edit",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-05-19T04:16:02.414Z",
+            "modified": "2024-05-19T04:16:02.414Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\" : \"koala\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "2B3kH2Tl4He54o2qFgo4-jTIHNKofgUP5oYG2W9G7xaS1Hy2a2NWvUFH0GPBQzBjc4BKzy4AL3kb6U5Z7thI9w"
+}
